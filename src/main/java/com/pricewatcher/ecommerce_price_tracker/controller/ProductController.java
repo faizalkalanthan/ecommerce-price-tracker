@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/products")  // Handles requests to /products
+@RequestMapping("/products")  // Handles requests to fetch /products
 public class ProductController {
 
     private final ProductService productService;
